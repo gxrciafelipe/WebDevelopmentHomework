@@ -16,7 +16,6 @@ for (let person in notablePeople) {
     //Changing to display date in MM/DD/YYYY format
    let birthDate = notablePeople[person];
    console.log(`${person}: ${birthDate.getMonth() + 1}/${birthDate.getDate()}/${birthDate.getFullYear()}`);
-   //console.log(person + ": " + notablePeople[person]); 
 }
 
 // Utility function to compute the rounded number of days difference from a 
